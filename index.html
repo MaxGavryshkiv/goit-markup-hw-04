@@ -36,18 +36,24 @@
             </li>
           </ul>
         </nav>
-        <a class="address-head mail-link" href="mailto:info@devstudio.com">
-          <svg class="icon">
-            <use href="./img/icon/sprite.svg#envelope"></use>
-          </svg>
-          info@devstudio.com
-        </a>
-        <a class="address-head" href="tel:+380961111111">
-          <svg class="icon">
-            <use href="./img/icon/sprite.svg#smartphone"></use>
-          </svg>
-          +38 096 111 11 11
-        </a>
+
+        <div class="address-content">
+          <a
+            class="address-head mail-link address-link"
+            href="mailto:info@devstudio.com"
+          >
+            <svg class="head-icon">
+              <use href="./img/icon/sprite.svg#envelope"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+          <a class="address-head address-link" href="tel:+380961111111">
+            <svg class="head-icon">
+              <use href="./img/icon/sprite.svg#smartphone"></use>
+            </svg>
+            +38 096 111 11 11
+          </a>
+        </div>
       </div>
     </header>
     <main>
@@ -71,28 +77,28 @@
         <div class="container">
           <h2 class="section-title" hidden>Особенности</h2>
           <ul class="features-list list">
-            <li class="features-item">
+            <li class="features-item features-title-1">
               <h3 class="title">Внимание к деталям</h3>
               <p class="text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="features-item">
+            <li class="features-item features-title-2">
               <h3 class="title">Пунктуальность</h3>
               <p class="text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="features-item">
+            <li class="features-item features-title-3">
               <h3 class="title">Планирование</h3>
               <p class="text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="features-item">
+            <li class="features-item features-title-4">
               <h3 class="title">Современные технологии</h3>
               <p class="text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -410,66 +416,170 @@
           </ul>
         </div>
       </section>
-    </main>
-    <!--footer-->
-    <footer class="footer">
-      <div class="container">
-        <a class="logo-bottom" href="./index.html">
-          <span class="logo-first">Web</span
-          ><span class="logo-third">Studio</span>
-        </a>
-        <address>
-          <ul class="all-address list">
-            <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
-            <li>
-              <a class="address-foot-first" href="mailto:info@example.com">
-                info@example.com
+      <!-- our clients -->
+      <section class="section our-clients">
+        <div class="container">
+          <h2 class="title">Постоянные клиенты</h2>
+          <ul class="list clients-list">
+            <li class="clients-item">
+              <a
+                class="company-link"
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="company-icon">
+                  <use href="./img/icon/sprite.svg#logo 1"></use>
+                </svg>
               </a>
             </li>
-            <li>
-              <a class="address-foot-second" href="tel:+380991111111">
-                +38 099 111 11 11
+            <li class="clients-item">
+              <a
+                class="company-link"
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="company-icon">
+                  <use href="./img/icon/sprite.svg#logo 2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a
+                class="company-link"
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="company-icon">
+                  <use href="./img/icon/sprite.svg#logo 3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a
+                class="company-link"
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="company-icon">
+                  <use href="./img/icon/sprite.svg#logo 4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a
+                class="company-link"
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="company-icon">
+                  <use href="./img/icon/sprite.svg#logo 5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a
+                class="company-link"
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="company-icon">
+                  <use href="./img/icon/sprite.svg#logo 6"></use>
+                </svg>
               </a>
             </li>
           </ul>
-        </address>
+        </div>
+      </section>
+    </main>
+    <!--footer-->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-address">
+          <a class="logo-bottom" href="./index.html">
+            <span class="logo-first">Web</span
+            ><span class="logo-third">Studio</span>
+          </a>
+          <address>
+            <ul class="all-address list">
+              <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
+              <li>
+                <a class="address-foot-first" href="mailto:info@example.com">
+                  info@example.com
+                </a>
+              </li>
+              <li>
+                <a class="address-foot-second" href="tel:+380991111111">
+                  +38 099 111 11 11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="sn-foot">
+          <p class="sn-title">присоединяйтесь</p>
+          <ul class="list footer-list">
+            <li class="footer-item">
+              <a
+                class="footer-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="силка інстаграм"
+              >
+                <svg class="footer-icon">
+                  <use href="./img/icon/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                class="footer-link"
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="силка твітер"
+              >
+                <svg class="footer-icon">
+                  <use href="./img/icon/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="силка фейсбук"
+              >
+                <svg class="footer-icon">
+                  <use href="./img/icon/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                class="footer-link"
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="силка лінкедін"
+              >
+                <svg class="footer-icon">
+                  <use href="./img/icon/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
-    <svg class="icon">
-      <use href="./img/icon/sprite.svg#envelope"></use>
-    </svg>
-    <svg class="icon">
-      <use href="./img/icon/sprite.svg#facebook"></use>
-    </svg>
-    <svg class="icon">
-      <use href="./img/icon/sprite.svg#instagram"></use>
-    </svg>
-    <svg class="icon">
-      <use href="./img/icon/sprite.svg#linkedin"></use>
-    </svg>
-    <svg class="icon">
-      <use href="./img/icon/sprite.svg#logo 1"></use>
-    </svg>
-    <svg class="icon">
-      <use href="./img/icon/sprite.svg#logo 2"></use>
-    </svg>
-    <svg class="icon">
-      <use href="./img/icon/sprite.svg#logo 3"></use>
-    </svg>
-    <svg class="icon">
-      <use href="./img/icon/sprite.svg#logo 4"></use>
-    </svg>
-    <svg class="icon">
-      <use href="./img/icon/sprite.svg#logo 5"></use>
-    </svg>
-    <svg class="icon">
-      <use href="./img/icon/sprite.svg#logo 6"></use>
-    </svg>
-    <svg class="icon">
-      <use href="./img/icon/sprite.svg#smartphone"></use>
-    </svg>
-    <svg class="icon">
-      <use href="./img/icon/sprite.svg#twitter"></use>
-    </svg>
   </body>
 </html>

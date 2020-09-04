@@ -40,10 +40,24 @@
             </li>
           </ul>
         </nav>
-        <a class="address-head mail-link" href="mailto:info@devstudio.com">
-          info@devstudio.com
-        </a>
-        <a class="address-head" href="tel:+380961111111"> +38 096 111 11 11 </a>
+
+        <div class="address-content">
+          <a
+            class="address-head mail-link address-link"
+            href="mailto:info@devstudio.com"
+          >
+            <svg class="head-icon">
+              <use href="./img/icon/sprite.svg#envelope"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+          <a class="address-head address-link" href="tel:+380961111111">
+            <svg class="head-icon">
+              <use href="./img/icon/sprite.svg#smartphone"></use>
+            </svg>
+            +38 096 111 11 11
+          </a>
+        </div>
       </div>
     </header>
     <!-- Hero -->
@@ -179,29 +193,87 @@
 
     <!--footer-->
     <footer class="footer">
-      <div class="container">
-        <a class="logo-bottom" href="./index.html">
-          <span class="logo-first">Web</span
-          ><span class="logo-third">Studio</span>
-        </a>
-        <address>
-          <ul class="all-address list">
-            <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
-            <li>
-              <a class="address-foot-first" href="mailto:info@example.com">
-                info@example.com
+      <div class="container footer-content">
+        <div class="footer-address">
+          <a class="logo-bottom" href="./index.html">
+            <span class="logo-first">Web</span
+            ><span class="logo-third">Studio</span>
+          </a>
+          <address>
+            <ul class="all-address list">
+              <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
+              <li>
+                <a class="address-foot-first" href="mailto:info@example.com">
+                  info@example.com
+                </a>
+              </li>
+              <li>
+                <a class="address-foot-second" href="tel:+380991111111">
+                  +38 099 111 11 11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="sn-foot">
+          <p class="sn-title">присоединяйтесь</p>
+          <ul class="list footer-list">
+            <li class="footer-item">
+              <a
+                class="footer-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="силка інстаграм"
+              >
+                <svg class="footer-icon">
+                  <use href="./img/icon/sprite.svg#instagram"></use>
+                </svg>
               </a>
             </li>
-            <li>
-              <a class="address-foot-second" href="tel:+380991111111">
-                +38 099 111 11 11
+            <li class="footer-item">
+              <a
+                class="footer-link"
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="силка твітер"
+              >
+                <svg class="footer-icon">
+                  <use href="./img/icon/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="силка фейсбук"
+              >
+                <svg class="footer-icon">
+                  <use href="./img/icon/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                class="footer-link"
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="силка лінкедін"
+              >
+                <svg class="footer-icon">
+                  <use href="./img/icon/sprite.svg#linkedin"></use>
+                </svg>
               </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
 </html>
-
-<div class="portfolio-content"></div>
